@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+numpy = "*"
+scipy = "*"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
+humanize = "*"
+ipykernel = "*"
+jupyter = "*"
+jupyterlab = "*"
+traits = {path = "/home/mike/projects/PyGEST"}

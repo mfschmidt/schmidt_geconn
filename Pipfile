@@ -16,3 +16,4 @@ ipykernel = "*"
 jupyter = "*"
 jupyterlab = "*"
 traits = {path = "/home/mike/projects/PyGEST"}
+xlrd = "*"

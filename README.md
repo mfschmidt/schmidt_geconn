@@ -10,32 +10,24 @@ To set up and run these notebooks:
 
 # Directories (most have not yet been commited to git)
 
-## arnatkeviciute
+## 01. filter_and_normalize_probes
 
 Many python scripts used to reproduce Aurina Arnatkeviciute's 2018 suggestions in Neuroimage for best practices in combining gene expression and other brain-mapped data. Some of her suggestions are compared with Richiardi 2015's methods.
 
-## debugging
+## 02. proximity_relationships
 
-Code snippets to help in reading and viewing cache files from the overlap plot generation in ge_data_manager
+Both expression similarity and connectivity have relationships to proximity/distance. Code here explores those relationships and justifies our selection of a 16mm distance mask for optimizing Mantel correlations.
 
-## ExpressionAndConnectivity
+## 03. maps
 
-An unorganized disarray of old scripts, all dumped here to keep them in proximity of other associated scripts
+Code to build maps linking probe_id, entrez_id, gene_symbol, etc.
 
-## gandal
+## 04. gene_lists
 
-Comparisions between our discovered genes and those reported in Gandal, et al. 2018.
+Comparisions between our discovered genes and those reported in Gandal, et al. 2018, Wei, et al. 2019, Wang, et al. 2018, and Savage, et al. 2018.
 
 - gandal_vs_schmidt.ipynb reads Gandal 2018 spreadsheet and saves relevant data to tsv files
 - rank_p_values.ipynb calculates p-values for Schmidt-generated gene lists.
-
-## Gene lists
-
-A copy of a google drive directory, containing data to support analyses in 'gandal'
-
-## maps
-
-Code to build maps linking probe_id, entrez_id, gene_symbol, etc.
 
 ## spatial_richiardi
 
@@ -52,3 +44,12 @@ Html output from sequential overlap analyses, dropping non-overlaps each iterati
 ## probe_annotation
 
 No code, data from online genomes
+
+## debugging
+
+Code snippets to help in reading and viewing cache files from the overlap plot generation in ge_data_manager
+
+## ExpressionAndConnectivity
+
+An unorganized disarray of old scripts, all dumped here to keep them in proximity of other associated scripts
+

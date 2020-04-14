@@ -26,3 +26,6 @@ pandana = "*"
 dill = "*"
 requests = "*"
 nibabel = "*"
+nbdev = "*"
+xeus-python = "*"
+future = {path = "/home/mike/projects/PyGEST"}

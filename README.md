@@ -12,7 +12,11 @@ To set up and run these notebooks:
 
 ## 01. filter_and_normalize_probes
 
-Many python scripts used to reproduce Aurina Arnatkeviciute's 2018 suggestions in Neuroimage for best practices in combining gene expression and other brain-mapped data. Some of her suggestions are compared with Richiardi 2015's methods.
+Many python scripts used to reproduce [Aurina Arnatkeviciute's 2018 suggestions in Neuroimage](https://doi.org/10.1016/j.neuroimage.2019.01.011) for best practices in combining gene expression and other brain-mapped data. Some of her suggestions are compared with [Richiardi 2015's methods](https://doi.org/10.1126/science.1255905). Most of these have been ported to [PyGEST](https://github.com/mfschmidt/PyGEST), making these notebooks redundant and unnecessary.
+
+- [Filter probes](filter_and_normalize_probes/02\ -\ Filter\ probes.ipynb)
+- [SRS adjust](filter_and_normalize_probes/05\ -\ SRS\ adjust.ipynb)
+    - [compare SRS vs raw](filter_and_normalize_probes/srs_differences/compare_srs_raw.ipynb)
 
 ## 02. proximity_relationships
 
